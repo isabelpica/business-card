@@ -80,22 +80,29 @@ h1{
 }
 
 h5{
-  color: rgb(179, 196, 206);
+  /* color: rgb(179, 196, 206); */
   margin-bottom: 3px;
 }
 
 a:link {
   text-decoration: none;
+  color: rgb(195, 220, 234);
 }
 
 a:visited {
   text-decoration: none;
+  color: rgb(195, 220, 234);
+  z-index: 10;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: lightsalmon;
+  z-index: 10;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
+  color: orangered;
+  z-index: 10;
 }
